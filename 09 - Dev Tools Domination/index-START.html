@@ -18,28 +18,48 @@
     }
 
     // Regular
+    console.log(2);
 
     // Interpolated
+    console.log('This is %s', 2)
 
     // Styled
+    console.log('%c text', 'font-size: 20px;')
 
     // warning!
+    console.warn("Warning!");
 
     // Error :|
+    console.error("ERROR!");
 
     // Info
+    console.info("Cool story bro.");
 
     // Testing
+    console.assert(1 === 2, 'That aint right');
 
     // clearing
+    console.clear()
 
     // Viewing DOM Elements
+    console.dir(document.querySelector('p'));
 
     // Grouping together
+    console.group('name') {
+      console.log('thing');
+      console.log('other thing');
+    }
+    console.group('name');
 
     // counting
+    console.count('thing');
 
     // timing
+    console.getTime('?');
+
+    // tables
+    console.table(dogs)
+
 
   </script>
 </body>
